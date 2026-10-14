@@ -1,3 +1,4 @@
+import { BadgeCheck } from "lucide-react";
 export default function Navbar({
   isConnected,
   shortAddress,
@@ -9,8 +10,8 @@ export default function Navbar({
     <header className="border-b border-slate-200 bg-white">
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-4">
         <div className="flex items-center gap-2">
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-indigo-600 text-lg font-bold text-white">
-            C
+          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-emerald-600 text-lg font-bold text-white">
+            <BadgeCheck />
           </span>
           <span className="text-xl font-bold tracking-tight">CampusPass</span>
         </div>
